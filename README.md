@@ -1,27 +1,39 @@
-# ChatClientApp
+# Angular 17 Chat Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+### This Chat application, built using Angular 17 & Dotnet Core 8 (Signal R)
 
-## Development server
+## Prerequirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* Visual Studio Code
+* npm
+* Angular Cli
+* Server Chat App(BackEnd) Get it From [Here](https://github.com/hossamElgainy/ServerChatApp)
 
-## Code scaffolding
+## Clone the repo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell
+git clone https://github.com/hossamElgainy/ClientChatApp.git
+```
 
-## Build
+## Install npm packages
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Install the `npm` packages described in the `package.json` and verify that it works:
 
-## Running unit tests
+```shell
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Features:
+### Group Chat
+* Chatting With Many Users
 
-## Running end-to-end tests
+### Private Chat
+* Chatting With Only One User 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Technologies
+* TypeScript
+* Angular 17
+* Dependency Injection
+* Bootstrap 5
+* Html & Css
