@@ -1,0 +1,48 @@
+
+
+.message-container {
+    display: flex;   
+    margin: 5px;
+}
+
+.fromMe {
+    justify-content: flex-end; /* Align to the right */
+}
+
+.fromMe .message-container {
+    flex-direction: row-reverse; /* Reverse order for sent messages */
+    text-align: right;
+}
+
+.fromMe .message-content {
+    background-color: #c8c8c8;
+    color: black;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 10px; /* Space between sender and message */
+}
+
+/* Received messages (from others) */
+.fromOther {
+    justify-content: flex-start; /* Align to the left */
+}
+
+.fromOther .message-container {
+    flex-direction: row; /* Normal order for received messages */
+    text-align: left;
+}
+
+.fromOther .message-content {
+    background-color: #e1e1e1; /* Different background color for received messages */
+    color: black;
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 10px; /* Space between sender and message */
+}
+
+.showMyNameToOthers {
+    font-weight: bold;
+    align-self: center;
+    margin: 3px;
+}
+

@@ -1,0 +1,11 @@
+<div style="overflow: auto; height: 400px;">
+    <div *ngFor="let message of messages" [ngClass]="{'fromMe': message.from === chatService.myName, 'fromOther': message.from !== chatService.myName}">
+        <div class="message-container">
+            <span class="text-primary"
+            [ngClass]="{'d-none': message.from === chatService.myName, 'showMyNameToOthers': message.from !== chatService.myName}">{{message.from}}</span>
+            <span class="message-content">
+                {{message.content}}
+            </span>
+        </div>
+    </div>
+</div>
